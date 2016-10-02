@@ -1,0 +1,36 @@
+title: lisp-unleashed
+email: certainty@lisp-unleashed.de
+description: 'Colorless green ideas sleep furiously'
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://lisp-unleashed.de"
+author:
+  name: 'David Krentzlin'
+  email: david.krentzlin@gmail.com
+  twitter_username: dkrentzlin
+  github_username:  certainty
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+sass:
+  style: compressed
+
+gems: ['jekyll-paginate']
+exclude: ['Gemfile', 'Gemfile.lock']
