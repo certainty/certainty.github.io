@@ -6,7 +6,7 @@ permalink: /me/
 
 Hi There!
 
-I am David Krentzlin located in Germany and I am passionate about computer science.
+I am David Krentzlin, located in Germany and passionate about computer science.
 
 Having learned Lisp/Scheme very early on in my career I went on to study among other things Ruby, Prolog, Haskell
 and lately Elixir.
