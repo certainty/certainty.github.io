@@ -1,7 +1,7 @@
 title: lisp unleashed
 email: certainty@lisp-unleashed.de
 description: 'Colorless green ideas sleep furiously'
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://lisp-unleashed.de"
 author:
   name: 'David Krentzlin'
