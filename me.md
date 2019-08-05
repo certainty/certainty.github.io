@@ -8,6 +8,7 @@ Hi!
 
 I'm David Krenzlin, a programming language geek, somewhat obsessed with typed functional programming, a self-driven learner, a growing teacher and interested in a whole plethora of technical topics like:
 
+* GraphQL
 * type systems
 * distributed systems
 * concurrency
