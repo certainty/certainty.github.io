@@ -16,10 +16,10 @@ update_code:
 	bundle update
 
 publish:
-	git co live 
+	git checkout live 
 	git merge --no-commit --ff-only master
 	git push origin live
-	git co master
+	git checkout master
 
 
 
