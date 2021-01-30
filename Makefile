@@ -9,6 +9,17 @@ dev:
 clean:
 	bundle exec jekyll clean
 
+local:
+	bundle exec jekyll serve --incremental --watch
+
 update_code:
 	bundle update
+
+publish:
+	git co live 
+	git merge --no-commit --ff-only master
+	git push origin live
+	git co master
+
+
 

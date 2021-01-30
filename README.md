@@ -4,9 +4,11 @@
 
 	bundle install
 
+## Rebuild while writing
 
+	make dev
 
-## Test locally
+## Test with local server
 
 	make local
 
