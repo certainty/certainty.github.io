@@ -4,13 +4,13 @@ build:
 	bundle exec jekyll build
 
 dev:
-	bundle exec jekyll build --incremental --watch
+	bundle exec jekyll build --drafts --incremental --watch
 
 clean:
 	bundle exec jekyll clean
 
 local:
-	bundle exec jekyll serve --incremental --watch
+	bundle exec jekyll serve --drafts --incremental --watch
 
 update_code:
 	bundle update

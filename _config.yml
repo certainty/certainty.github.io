@@ -16,10 +16,20 @@ defaults:
       type: 'posts'
     values:
         layout: 'post'
+  -
+    scope:
+      path: "" # any file that's not a post will be a "page" layout by default
+    values:
+      layout: "page"
+
 
 destination: _site
+exclude: 
+  - Makefile
+  - README.md
+  - Gemfile*
 paginate: 10
-permalink: /:year/:title/
+permalink: /:categories/:year/:month/:day/:title:output_ext
 markdown: kramdown
 highlighter: rouge
 
@@ -33,4 +43,3 @@ sass:
   style: compressed
 
 plugins: ['jekyll-paginate']
-exclude: ['Gemfile', 'Gemfile.lock']

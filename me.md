@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 
+title: David Krentzlin
 permalink: /me/
 ---
 
